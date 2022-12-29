@@ -38,7 +38,8 @@ class myhandler(BaseHTTPRequestHandler):
 server_address = ('',80)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
-httpd.serve_forever()'''
+httpd.serve_forever()
+```
 
 ## OUTPUT:
 ![OUTPUT](./image/ethachum.png)
